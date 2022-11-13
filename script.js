@@ -12,5 +12,5 @@ function testJSON(){
    element.innerHTML = my_JSON_object['caracteres'][indexCar]['car'];
    var bonnereponse = Math.floor(Math.random() * 4);
    var bonBouton = document.getElementById('reponse'+bonnereponse);
-   bonBouton.innerHTML = my_JSON_object['caracteres'][indexCar]['pinyin'];
+   bonBouton.innerText = my_JSON_object['caracteres'][indexCar]['pinyin'];
 }
