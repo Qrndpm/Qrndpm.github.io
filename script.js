@@ -8,5 +8,5 @@ function testJSON(){
    console.log(my_JSON_object['caracteres'][1]['car']);
    console.log(my_JSON_object['caracteres'].length);
    var element = document.getElementById('car');
-   element.innerHTML = my_JSON_object['caracteres'][2]['car'];
+   element.innerHTML = my_JSON_object['caracteres'][1]['car'];
 }
