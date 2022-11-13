@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<characters>
+    <character id="1">
+        <pinyin>zhōng</pinyin>
+        <car>中</car>
+    </character>
+        <character id="2">
+        <pinyin>guó</pinyin>
+        <car>国</car>
+    </character>
+    <character id="3">
+        <pinyin>zì</pinyin>
+        <car>字</car>
+    </character>
+
+</characters>
