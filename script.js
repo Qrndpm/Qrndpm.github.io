@@ -8,5 +8,9 @@ function testJSON(){
    console.log(my_JSON_object['caracteres'][1]['car']);
    console.log(my_JSON_object['caracteres'].length);
    var element = document.getElementById('car');
-   element.innerHTML = my_JSON_object['caracteres'][Math.floor(Math.random() * my_JSON_object['caracteres'].length)]['car'];
+   var indexCar = Math.floor(Math.random() * my_JSON_object['caracteres'].length);
+   element.innerHTML = my_JSON_object['caracteres'][indexCar]['car'];
+   var bonnereponse = Math.floor(Math.random() * 4);
+   var bonBouton = document.getElementById('reponse'+bonnereponse);
+   bonBouton.innerHTML = my_JSON_object['caracteres'][indexCar]['pinyin'];
 }
