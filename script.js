@@ -22,7 +22,7 @@ function testJSON(){
          do{
             n = Math.floor(Math.random() * my_JSON_object['caracteres'].length);
          }while(n==indexCar);
-         bouton.innerText my_JSON_object['caracteres'][n]['pinyin'];
+         bouton.innerText = my_JSON_object['caracteres'][n]['pinyin'];
       }
    }
 }
