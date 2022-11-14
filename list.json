@@ -1,133 +1,162 @@
 {
-    "caracteres": [
+  "caracteres": [
+    {
+      "pinyin": "zhōng",
+      "car": "中"
+    },
+    {
+      "pinyin": "guó",
+      "car": "国"
+    },
+    {
+      "pinyin": "zì",
+      "car": "字"
+    },
       {
-        "pinyin": "zhōng",
-        "car": "中"
-      },
-      {
-        "pinyin": "guó",
-        "car": "国"
-      },
-      {
-        "pinyin": "zì",
-        "car": "字"
-      },
-        {
-        "pinyin": "yī",
-        "car": "一"
-      },
-      {
-        "pinyin": "èr",
-        "car": "二"
-      },
-      {
-        "pinyin": "sān",
-        "car": "三"
-      },
-      {
-        "pinyin": "sì",
-        "car": "四"
-      },
-      {
-        "pinyin": "wǔ",
-        "car": "五"
-      },
-      {
-        "pinyin": "liù",
-        "car": "六"
-      },
-      {
-        "pinyin": "qī",
-        "car": "七"
-      },
-      {
-        "pinyin": "bā",
-        "car": "八"
-      },
-      {
-        "pinyin": "jiǔ",
-        "car": "九"
-      },
-      {
-        "pinyin": "shí",
-        "car": "十"
-      },
-      {
-        "pinyin": "gōng",
-        "car": "工"
-      },
-      {
-        "pinyin": "Wáng",
-        "car": "王"
-      },
-      {
-        "pinyin": "shàng",
-        "car": "上"
-      },
-      {
-        "pinyin": "xià",
-        "car": "下"
-      },
-      {
-        "pinyin": "rén",
-        "car": "人"
-      },
-      {
-        "pinyin": "gè",
-        "car": "个"
-      },
-      {
-        "pinyin": "mù",
-        "car": "木"
-      },
-      {
-        "pinyin": "bù",
-        "car": "不"
-      },
-      {
-        "pinyin": "dà",
-        "car": "大"
-      },
-      {
-        "pinyin": "tài",
-        "car": "太"
-      },
-      {
-        "pinyin": "tiān",
-        "car": "天"
-      },
-      {
-        "pinyin": "fū",
-        "car": "夫"
-      },
-      {
-        "pinyin": "wǔ",
-        "car": "午"
-      },
-      {
-        "pinyin": "niú",
-        "car": "牛"
-      },
-      {
-        "pinyin": "yáng",
-        "car": "羊"
-      },
-      {
-        "pinyin": "bàn",
-        "car": "半"
-      },
-      {
-        "pinyin": "shēng",
-        "car": "生"
-      },
-      {
-        "pinyin": "shǎo",
-        "car": "少"
-      },
-      {
-        "pinyin": "huǒ",
-        "car": "火"
-      }
+      "pinyin": "yī",
+      "car": "一",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "èr",
+      "car": "二",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "sān",
+      "car": "三",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "sì",
+      "car": "四"
 
-    ]
-  }
+    },
+    {
+      "pinyin": "wǔ",
+      "car": "五"
+
+    },
+    {
+      "pinyin": "liù",
+      "car": "六",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "qī",
+      "car": "七"
+
+    },
+    {
+      "pinyin": "bā",
+      "car": "八",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "jiǔ",
+      "car": "九"
+
+    },
+    {
+      "pinyin": "shí",
+      "car": "十",
+            "lecon": "a"
+    },
+    {
+      "pinyin": "gōng",
+      "car": "工",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "Wáng",
+      "car": "王",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "shàng",
+      "car": "上",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "xià",
+      "car": "下",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "rén",
+      "car": "人",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "gè",
+      "car": "个",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "mù",
+      "car": "木",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "bù",
+      "car": "不",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "dà",
+      "car": "大",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "tài",
+      "car": "太",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "tiān",
+      "car": "天",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "fū",
+      "car": "夫",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "wǔ",
+      "car": "午",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "niú",
+      "car": "牛",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "yáng",
+      "car": "羊",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "bàn",
+      "car": "半",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "shēng",
+      "car": "生",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "shǎo",
+      "car": "少",
+      "lecon": "a"
+    },
+    {
+      "pinyin": "huǒ",
+      "car": "火",
+      "lecon": "a"
+    }
+
+  ]
+}
