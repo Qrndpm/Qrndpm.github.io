@@ -26,3 +26,12 @@ function testJSON(){
       }
    }
 }
+
+function boutonReponse(element){
+   if(element.value == "Vrai"){
+      alert("Bonne réponse");
+   }
+   else{
+      alert("Mauvaise réponse");
+   }
+}
