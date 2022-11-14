@@ -2,15 +2,18 @@
   "caracteres": [
     {
       "pinyin": "zhōng",
-      "car": "中"
+      "car": "中",
+      "lecon": "b"
     },
     {
       "pinyin": "guó",
-      "car": "国"
+      "car": "国",
+      "lecon": "b"
     },
     {
       "pinyin": "zì",
-      "car": "字"
+      "car": "字",
+      "lecon": "2"
     },
       {
       "pinyin": "yī",
@@ -29,12 +32,13 @@
     },
     {
       "pinyin": "sì",
-      "car": "四"
-
+      "car": "四",
+      "lecon": "b"
     },
     {
       "pinyin": "wǔ",
-      "car": "五"
+      "car": "五",
+      "lecon": "b"
 
     },
     {
@@ -44,8 +48,8 @@
     },
     {
       "pinyin": "qī",
-      "car": "七"
-
+      "car": "七",
+      "lecon": "b"
     },
     {
       "pinyin": "bā",
@@ -54,13 +58,13 @@
     },
     {
       "pinyin": "jiǔ",
-      "car": "九"
-
+      "car": "九",
+      "lecon": "b"
     },
     {
       "pinyin": "shí",
       "car": "十",
-            "lecon": "a"
+      "lecon": "a"
     },
     {
       "pinyin": "gōng",
