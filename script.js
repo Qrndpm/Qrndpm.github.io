@@ -29,11 +29,11 @@ function testJSON(){
 
 function boutonReponse(element){
    if(element.value == "Vrai"){
-      alert("Bonne réponse");
+      //alert("Bonne réponse");
       changerCar();
    }
    else{
-      alert("Mauvaise réponse");
+      //alert("Mauvaise réponse");
       element.disabled = true;
    }
 }
