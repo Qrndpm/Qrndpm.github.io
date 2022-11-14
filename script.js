@@ -30,8 +30,40 @@ function testJSON(){
 function boutonReponse(element){
    if(element.value == "Vrai"){
       alert("Bonne réponse");
+      changerCar();
    }
    else{
       alert("Mauvaise réponse");
+      element.disabled = true;
+   }
+}
+
+function changerCar(){
+   for (let i = 0; i<4; i++){
+      let resetbouton;
+      resetbouton = document.getElementById('reponse'+i);
+      resetbouton.disabled = false;
+   }
+   var request = new XMLHttpRequest();
+   request.open("GET", "list.json", false);
+   request.send(null)
+   var my_JSON_object = JSON.parse(request.responseText);
+      var element = document.getElementById('car');
+   var indexCar = Math.floor(Math.random() * my_JSON_object['caracteres'].length);
+   element.innerHTML = my_JSON_object['caracteres'][indexCar]['car'];
+   var bonnereponse = Math.floor(Math.random() * 4);
+   var bonBouton = document.getElementById('reponse'+bonnereponse);
+   bonBouton.innerText = my_JSON_object['caracteres'][indexCar]['pinyin'];
+   bonBouton.value = "Vrai";
+   for (let i = 0; i<4; i++){
+      let bouton;
+      if(i!=bonnereponse){
+         bouton = document.getElementById('reponse'+i);
+         bouton.value = "Faux";
+         do{
+            n = Math.floor(Math.random() * my_JSON_object['caracteres'].length);
+         }while(n==indexCar);
+         bouton.innerText = my_JSON_object['caracteres'][n]['pinyin'];
+      }
    }
 }
